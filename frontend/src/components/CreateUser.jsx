@@ -27,7 +27,7 @@ const CreateUser = () => {
 
     return (
         <div className="p-5 max-w-lg mx-auto font-sans">
-            <h1 className="text-center text-gray-800 text-2xl mb-5">List of Users</h1>
+            <h1 className="text-center text-gray-800 text-2xl mb-5">Create Users</h1>
             <form className="flex flex-col items-center gap-3" onSubmit={handleSubmit}>
                 <label className="font-bold text-start mb-1">Name:</label>
                 <input type="text" name="name" placeholder="Enter Name" onChange={handleChange} className="p-2 w-full max-w-md rounded border border-gray-300" />
