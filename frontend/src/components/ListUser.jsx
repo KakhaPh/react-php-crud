@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import axios from 'axios'
 
 const ListUser = () => {
 
@@ -15,6 +16,7 @@ const ListUser = () => {
         event.preventDefault();
 
         console.log(inputs);
+        axios.post('http://localhost/api/user/save', inputs)
     }
 
 return (
